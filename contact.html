@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no,maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/style.css">
+  <title>Victor Kadiata - Contact</title>
+</head>
+<body>
+  <header>
+    <nav class="flex flex-justify-space-between flex-wrap padding-y-s text-center flex-column gap-m sm-flex-row sm-flex-justify-space-between">
+      <div>
+        <h1>
+          <a href="index.html">Victor Kadiata</a>
+        </h1>
+      </div>
+      <div>
+        <ul class="flex list-style-none pl-0 flex-align-center flex-justify-center">
+          <li class="menu-item"><a href="cv.html">CV</a></li>
+          <li class="menu-item"><a href="projets.html">Projets</a></li>
+          <li class="menu-item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- <main class="max-width-1100 margin-auto padding-y-xxl flex flex-wrap flex-justify-space-between md-flex-justify-center"> -->
+  <main class="max-width-1100 margin-auto padding-y-xxl flex flex-column text-center flex-justify-center flex-align-start gap-xl lg-text-left lg-flex-row"">
+    <div class="flex-1">
+      <h2>Contact</h2>
+      <section class="padding-y-m">
+        <h3>Téléphone</h3>
+        <p>
+          <a href="tel:+243825229601">+243 82 522 9601</a>
+        </p>
+      </section>
+      <section class="padding-t-xs">
+        <h3>Email</h3>
+        <p>
+          <a href="mailto:vickadiata@gmail.com">vickadiata@gmail.com</a>
+        </p>
+      </section>
+    </div>
+
+    <div class="flex-1 xs-text-left sm-text-left md-text-left">
+      <form class="flex flex-column flex-justify-center">
+        <div class="flex flex-align-center gap-s padding-y-s flex-column sm-flex-row">
+          <div class="flex-1 max-width-full">
+            <div>
+              <label for="nom">Votre nom</label>
+            </div>
+            <div>
+              <input type="text" name="nom" id="nom">
+            </div>
+          </div>
+          <div class="flex-1 max-width-full">
+            <div>
+              <label for="prénom" class="width-full">Votre prénom</label>
+            </div>
+            <div>
+              <input type="text" name="prénom" id="prénom">
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-align-center gap-s padding-y-s flex-column sm-flex-row">
+          <div  class="flex-1 max-width-full">
+            <div>
+              <label for="email">Votre Email</label>
+            </div>
+            <div>
+              <input type="email" name="email" id="email">
+            </div>
+          </div>
+          <div class="flex-1 max-width-full">
+            <div>
+              <label for="objet">L'objet de votre message</label>
+            </div>
+            <div>
+              <input type="text" name="objet" id="objet">
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-align-center gap-s padding-y-s flex-column sm-flex-row">
+          <div class="flex-1 max-width-full">
+            <div>
+              <label for="message">Votre message</label>
+            </div>
+            <div>
+                <textarea class="height-150 py-0 resize-none" name="message" id="message"></textarea>
+            </div>
+          </div>
+          <div class="flex-1 margin-auto max-width-full">
+            <button class="flex flex-justify-center flex-align-center text-bold rounded bordered width-150 height-150 bg-yellow" type="submit">Envoyer</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer class="flex flex-wrap flex-justify-space-between top-bordered padding-y-s text-small text-center flex-column gap-m md-flex md-flex-row md-text-left md-gap-0">
+    <div>
+      <h3>Téléphone</h3>
+      <p><a href="tel:+243825229601">+243 82 522 9601</a></p>
+    </div>
+    <div>
+      <h3>Email</h3>
+      <p><a href="mailto:vickadiata@gmail.com">vickadiata@gmail.com</a></p>
+    </div>
+    <div>
+      <h3>Suivez-moi</h3>
+        <p>
+          <a href="https://www.linkedin.com/in/victor-kadiata-09838b58/" target="_blank"><iconify-icon icon="mdi:linkedin" width="24" height="24"></iconify-icon></a>
+      <a href="https://twitter.com/vickad25" target="_blank"><iconify-icon icon="devicon:twitter" width="24" height="24"></iconify-icon></a>
+      <a href="https://github.com/vick25" target="_blank"><iconify-icon icon="mdi:github" width="24" height="24"></iconify-icon></a>
+        </p>
+    </div>
+    <div><p class="text-small">&copy; 2023 - By Victor Kadiata</p></div>
+  </footer>
+
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+</html>
